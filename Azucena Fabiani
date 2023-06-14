@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fondo con imagen y botones</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('ruta/desktop/IMAGES/FONDO.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .container {
+      text-align: center;
+      padding-top: 50px;
+    }
+    
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido</h1>
+    <a class="button" href="#">Botón 1</a>
+    <a class="button" href="#">Botón 2</a>
+  </div>
+</body>
+</html>
